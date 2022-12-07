@@ -20,7 +20,7 @@ To build a severless, progressive web application (PWA) with React using a test-
 
 - As a user, I should be able to use the APP when offline so that i can still access the application even without being online.
 
--As a user, I should be able to Visualize the data so that i can see a chart with the number of upcoming events in each city.
+- As a user, I should be able to Visualize the data so that i can see a chart with the number of upcoming events in each city.
 
 # Scenarios for User stories:
 
@@ -39,8 +39,6 @@ Given the main page is open When user starts typing in the city textbox Then the
 Given the user was typing “Berlin” in the city textbox and the list of suggested cities is showing When the user selects a city (e.g., “Berlin, Germany”) from the list Then their city should be changed to that city (i.e., “Berlin, Germany”) and the user should receive a list of upcoming events in that city
 
 ## SHOW/HIDE AN EVENT'S DETAILS:
-
-- As a user, I should be able to filter events by city so that I can see the list of events that take place in that city.
 
 \*\*Scenario 1: An event element is collapsed by default
 Given that a user has not selected a city, When the list of event is displayed, Then all events details should be hidden.
